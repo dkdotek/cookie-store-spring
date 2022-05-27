@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/setcookie"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Set-Cookie": ["mycookie=yes"]
+    },
+    "body": "More content\n"
+  }
+}

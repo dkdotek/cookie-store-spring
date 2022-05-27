@@ -1,0 +1,15 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/requirecookie",
+    "cookies": {
+      "mycookie": {
+        "matches": "yes"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "body": "Cookie is present\n"
+  }
+}
